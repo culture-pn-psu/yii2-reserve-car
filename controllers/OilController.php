@@ -1,10 +1,10 @@
 <?php
 
-namespace backend\modules\reserveCar\controllers;
+namespace culturePnPsu\reserveCar\controllers;
 
 use Yii;
-use backend\modules\reserveCar\models\ReserveCarOil;
-use backend\modules\reserveCar\models\ReserveCarOilSearch;
+use culturePnPsu\reserveCar\models\ReserveCarOil;
+use culturePnPsu\reserveCar\models\ReserveCarOilSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

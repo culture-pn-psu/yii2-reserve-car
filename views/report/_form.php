@@ -5,7 +5,7 @@ use yii\widgets\ActiveForm;
 use backend\models\Month;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\reserveCar\models\ReserveCarReport */
+/* @var $model culturePnPsu\reserveCar\models\ReserveCarReport */
 /* @var $form yii\widgets\ActiveForm */
 if($model->isNewRecord){
     $model->month = date('n');

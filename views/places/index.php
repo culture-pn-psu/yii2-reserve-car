@@ -5,7 +5,7 @@ use yii\grid\GridView;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\reserveCar\models\ReserveCarPlacesSearch */
+/* @var $searchModel culturePnPsu\reserveCar\models\ReserveCarPlacesSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('reserve', 'Reserve Car Places');

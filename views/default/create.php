@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\reserveCar\models\ReserveCar */
+/* @var $model culturePnPsu\reserveCar\models\ReserveCar */
 
 $this->title = Yii::t('reserve', 'แบบฟอร์การขอใช้รถ');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('reserve', 'รายการขอใช้รถ'), 'url' => ['index']];

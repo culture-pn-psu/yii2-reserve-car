@@ -1,14 +1,14 @@
 <?php
 
-namespace backend\modules\reserveCar\controllers;
+namespace culturePnPsu\reserveCar\controllers;
 
 use Yii;
-use backend\modules\reserveCar\models\ReserveCar;
-use backend\modules\reserveCar\models\ReserveCarSearch;
-use backend\modules\reserveCar\models\ReserveCarDraftSearch;
-use backend\modules\reserveCar\models\ReserveCarGoto;
-use backend\modules\reserveCar\models\ReserveCarResultSearch;
-use backend\modules\reserveCar\models\ReserveCarOfferSearch;
+use culturePnPsu\reserveCar\models\ReserveCar;
+use culturePnPsu\reserveCar\models\ReserveCarSearch;
+use culturePnPsu\reserveCar\models\ReserveCarDraftSearch;
+use culturePnPsu\reserveCar\models\ReserveCarGoto;
+use culturePnPsu\reserveCar\models\ReserveCarResultSearch;
+use culturePnPsu\reserveCar\models\ReserveCarOfferSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -278,7 +278,7 @@ class DefaultController extends Controller {
 //                echo $modelName;
 //                exit();
                 switch ($modelName) {
-                    case 'backend\modules\reserveCar\models\ReserveCarPlaces':
+                    case 'culturePnPsu\reserveCar\models\ReserveCarPlaces':
                         $model->id = $ch_id;
                         $model->title = $ch_title;
                         //$model->brand = $val['material_brand'];

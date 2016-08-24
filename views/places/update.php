@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\reserveCar\models\ReserveCarPlaces */
+/* @var $model culturePnPsu\reserveCar\models\ReserveCarPlaces */
 
 $this->title = Yii::t('reserve', 'Update {modelClass}: ', [
     'modelClass' => 'Reserve Car Places',

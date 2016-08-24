@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\reserveCar\models\ReserveCarCate */
+/* @var $model culturePnPsu\reserveCar\models\ReserveCarCate */
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('reserve', 'Reserve Car Cates'), 'url' => ['index']];

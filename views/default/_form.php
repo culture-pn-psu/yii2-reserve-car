@@ -5,9 +5,9 @@ use yii\widgets\ActiveForm;
 use kartik\date\DatePicker;
 use kartik\time\TimePicker;
 use kartik\select2\Select2;
-use backend\modules\reserveCar\models\ReserveCar;
-use backend\modules\reserveCar\models\ReserveCarCate;
-use backend\modules\reserveCar\models\ReserveCarPlaces;
+use culturePnPsu\reserveCar\models\ReserveCar;
+use culturePnPsu\reserveCar\models\ReserveCarCate;
+use culturePnPsu\reserveCar\models\ReserveCarPlaces;
 ?>
 
 <?= Html::tag('h2', Yii::t('reserve', 'แบบฟอร์การขอใช้รถ'), ['class' => 'text-center']) ?>

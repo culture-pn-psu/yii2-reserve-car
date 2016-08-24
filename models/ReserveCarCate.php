@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\reserveCar\models;
+namespace culturePnPsu\reserveCar\models;
 
 use Yii;
 use yii\helpers\ArrayHelper;

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\reserveCar\models\ReserveCarStaffSearch */
+/* @var $model culturePnPsu\reserveCar\models\ReserveCarStaffSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

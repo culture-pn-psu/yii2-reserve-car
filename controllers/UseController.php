@@ -1,9 +1,9 @@
 <?php
 
-namespace backend\modules\reserveCar\controllers;
+namespace culturePnPsu\reserveCar\controllers;
 
 use Yii;
-use backend\modules\reserveCar\models\ReserveCarUse;
+use culturePnPsu\reserveCar\models\ReserveCarUse;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

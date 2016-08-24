@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\reserveCar\models\ReserveCarOil */
+/* @var $model culturePnPsu\reserveCar\models\ReserveCarOil */
 
 $this->title = Yii::t('reserve', 'Create Reserve Car Oil');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('reserve', 'Reserve Car Oils'), 'url' => ['index']];

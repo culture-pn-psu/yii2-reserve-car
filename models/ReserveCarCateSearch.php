@@ -1,14 +1,14 @@
 <?php
 
-namespace backend\modules\reserveCar\models;
+namespace culturePnPsu\reserveCar\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\modules\reserveCar\models\ReserveCarCate;
+use culturePnPsu\reserveCar\models\ReserveCarCate;
 
 /**
- * ReserveCarCateSearch represents the model behind the search form about `backend\modules\reserveCar\models\ReserveCarCate`.
+ * ReserveCarCateSearch represents the model behind the search form about `culturePnPsu\reserveCar\models\ReserveCarCate`.
  */
 class ReserveCarCateSearch extends ReserveCarCate
 {

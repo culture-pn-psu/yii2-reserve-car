@@ -1,15 +1,15 @@
 <?php
 
-namespace backend\modules\reserveCar\controllers;
+namespace culturePnPsu\reserveCar\controllers;
 
 use Yii;
-use backend\modules\reserveCar\models\ReserveCarReport;
-use backend\modules\reserveCar\models\ReserveCarReportSearch;
+use culturePnPsu\reserveCar\models\ReserveCarReport;
+use culturePnPsu\reserveCar\models\ReserveCarReportSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use backend\modules\reserveCar\models\ReserveCarUse;
-use backend\modules\reserveCar\models\ReserveCarOil;
+use culturePnPsu\reserveCar\models\ReserveCarUse;
+use culturePnPsu\reserveCar\models\ReserveCarOil;
 
 /**
  * ReportController implements the CRUD actions for ReserveCarReport model.

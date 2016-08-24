@@ -1,17 +1,17 @@
 <?php
 
-namespace backend\modules\reserveCar\controllers;
+namespace culturePnPsu\reserveCar\controllers;
 
 use Yii;
-use backend\modules\reserveCar\models\ReserveCar;
-use backend\modules\reserveCar\models\ReserveCarStaffSearch;
-use backend\modules\reserveCar\models\ReserveStaffComebackSearch;
-use backend\modules\reserveCar\models\ReserveStaffConsiderSearch;
-use backend\modules\reserveCar\models\ReserveStaffResultSearch;
+use culturePnPsu\reserveCar\models\ReserveCar;
+use culturePnPsu\reserveCar\models\ReserveCarStaffSearch;
+use culturePnPsu\reserveCar\models\ReserveStaffComebackSearch;
+use culturePnPsu\reserveCar\models\ReserveStaffConsiderSearch;
+use culturePnPsu\reserveCar\models\ReserveStaffResultSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use backend\modules\reserveCar\models\ReserveCarUse;
+use culturePnPsu\reserveCar\models\ReserveCarUse;
 
 /**
  * StaffController implements the CRUD actions for ReserveCar model.

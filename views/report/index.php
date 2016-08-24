@@ -3,10 +3,10 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
-use backend\modules\reserveCar\models\ReserveCarReport;
+use culturePnPsu\reserveCar\models\ReserveCarReport;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\reserveCar\models\ReserveCarReportSearch */
+/* @var $searchModel culturePnPsu\reserveCar\models\ReserveCarReportSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('reserve', 'รายงานการใช้พลังงาน');

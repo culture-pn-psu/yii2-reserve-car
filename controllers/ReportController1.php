@@ -1,12 +1,12 @@
 <?php
 
-namespace backend\modules\reserveCar\controllers;
+namespace culturePnPsu\reserveCar\controllers;
 
 use Yii;
-use backend\modules\reserveCar\models\ReserveCar;
-use backend\modules\reserveCar\models\ReserveCarUse;
-use backend\modules\reserveCar\models\ReserveCarOil;
-use backend\modules\reserveCar\models\FormSearch;
+use culturePnPsu\reserveCar\models\ReserveCar;
+use culturePnPsu\reserveCar\models\ReserveCarUse;
+use culturePnPsu\reserveCar\models\ReserveCarOil;
+use culturePnPsu\reserveCar\models\FormSearch;
 
 class ReportController extends \yii\web\Controller {
 

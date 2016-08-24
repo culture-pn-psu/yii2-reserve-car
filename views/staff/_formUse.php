@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use backend\modules\reserveCar\models\ReserveCarOil;
+use culturePnPsu\reserveCar\models\ReserveCarOil;
 use kartik\datetime\DateTimePicker;
 
 echo $model->statusLabel;
