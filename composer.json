@@ -17,8 +17,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-        "andatech/yii2-core": "*"
+        "andatech/yii2-core": "dev-master"
     },
     "autoload": {
         "psr-4": {
