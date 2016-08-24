@@ -1,0 +1,33 @@
+{
+    "name": "culture-pn-psu/yii2-art-gallery",
+    "description": "Yii2 for customer management system.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0",
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/culture-pn-psu/yii2-art-gallery.git",
+        "issues": "https://github.com/culture-pn-psu/yii2-art-gallery/issues"
+    },
+    "authors": [
+        {
+            "name": "Ikhlas Service",
+            "email": "ahamad.jedu@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "culturePnPsu\\artGallery\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
