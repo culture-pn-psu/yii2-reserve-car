@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\helpers\BaseStringHelper;
+use culturePnPsu\reserveCar\components\Navigate;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -32,7 +33,7 @@ $controller = $this->context;
             <div class="box-body no-padding">
 
                 <?php
-                $nav = new common\models\Navigate();
+                $nav = new Navigate();
                 echo dmstr\widgets\Menu::widget([
                     'options' => ['class' => 'nav nav-pills nav-stacked'],
                     //'linkTemplate' =>'<a href="{url}">{icon} {label} {badge}</a>',
@@ -62,7 +63,7 @@ $controller = $this->context;
                 <div class="box-body no-padding">
 
                     <?php
-                    $nav = new common\models\Navigate();
+                    $nav = new Navigate();
                     echo dmstr\widgets\Menu::widget([
                         'options' => ['class' => 'nav nav-pills nav-stacked'],
                         //'linkTemplate' =>'<a href="{url}">{icon} {label} {badge}</a>',
